@@ -7,6 +7,9 @@ COMPILE: $(O_FILES)
 strct11: strct11.o
 	./$<
 
+relops: relops.o
+	./$<
+
 %.o: %.cpp
 	$(CC) $< -o $@
 
