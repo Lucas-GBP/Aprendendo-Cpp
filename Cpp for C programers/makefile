@@ -17,9 +17,6 @@ strct11: strct11.o
 relops: relops.o
 	./$<
 
-mathfunc: mathfunc.o
-	./$<
-
 mathops: mathops.o
 	./$<
 

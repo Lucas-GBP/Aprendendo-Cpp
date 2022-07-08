@@ -6,8 +6,8 @@ class abc {
     private:
 
     protected:
-
-}
+        
+};
 
 int main(){
     printf("Hello World!\n");
