@@ -43,6 +43,6 @@ int main(){
 
     std::cout << t1;
     std::cout << t1.timer_to_int();
-    std::cout << t1.timer_to_float();
+    //std::cout << t1.timer_to_float();
     //std::cout << (char)(t1.timer_to_char()+70);
 }
