@@ -1,6 +1,5 @@
 //casting a class into a pre-defined type using functions
 #include <iostream>
-#include <ostream>
 
 class timer{
     private:
