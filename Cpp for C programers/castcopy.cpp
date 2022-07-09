@@ -1,0 +1,1 @@
+//building one instance of a class using another instance of the same class
