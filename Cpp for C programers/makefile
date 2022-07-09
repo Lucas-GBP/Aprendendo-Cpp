@@ -11,6 +11,10 @@ clear:
 	rm *.o
 	clear
 
+#Experiments
+timer: timer.o
+	./$<
+
 #Chapter 04
 strct11: strct11.o
 	./$<
@@ -30,7 +34,5 @@ castcons: castcons.o
 	./$<
 castcopy: castcopy.o
 	./$<
-cls2stct: cls2stct.o
-	./$<
-stct2cls: stct2cls.o
+cls2cls: cls2cls.o
 	./$<
