@@ -41,7 +41,7 @@ std::ostream & operator << (std::ostream & os, timer a){
 int main(){
     timer t1(1, 2, 3);
 
-    std::cout << t1;
+    //std::cout << t1;
     //std::cout << t1.timer_to_int();
     //std::cout << t1.timer_to_float();
     //std::cout << (char)(t1.timer_to_char()+70);
