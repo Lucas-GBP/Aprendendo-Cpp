@@ -22,5 +22,8 @@ class a{
 a::a():a_priv_var(1), a_prot_var(2), a_pub_var(3){
 }
 
+int main(){
+    class a;
+}
 
 #endif
