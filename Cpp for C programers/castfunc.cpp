@@ -1,6 +1,5 @@
 //casting a class into a pre-defined type using functions
 #include <iostream>
-#include <ostream>
 
 class timer{
     private:
@@ -40,9 +39,9 @@ std::ostream & operator << (std::ostream & os, timer a){
 
 int main(){
     timer t1(1, 2, 3);
-    std::cout << t1;
 
-    std::cout << t1.timer_to_int() << std::endl;
-    std::cout << t1.timer_to_float() << std::endl;
-    std::cout << (char)(t1.timer_to_char()+70) << std::endl;
+    std::cout << t1;
+    std::cout << t1.timer_to_int();
+    std::cout << t1.timer_to_float();
+    std::cout << (char)(t1.timer_to_char()+70);
 }
